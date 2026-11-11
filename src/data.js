@@ -14,9 +14,9 @@ export const destinations=[
 ];
 export const packages=[
 {name:'Kerala — God’s Own Country',route:'Fort Kochi · Vagamon · Thekkady · Alleppey',duration:'8 days / 7 nights',image:destinations[3].image},
-{name:'Kerala Divine Package',route:'Chottanikkara · Ernakulathappan · Padmanabha Swamy',duration:'6 days / 5 nights',image:'https://images.unsplash.com/photo-1604608672516-4e9d3d4f2932?auto=format&fit=crop&w=1000&q=80'},
+{name:'Kerala Divine Package',route:'Chottanikkara · Ernakulathappan · Padmanabha Swamy',duration:'6 days / 5 nights',image:'https://www.templepurohit.com/wp-content/uploads/2015/10/Ambalappuzha-Sri-Krishna-TempleAlappuzha-Kerala.jpg'},
 {name:'Tamil Nadu Explorer',route:'Kanyakumari · Kodaikanal · Ooty',duration:'11 days / 10 nights',image:destinations[7].image},
-{name:'Tamil Nadu Spiritual',route:'Madurai · Rameswaram · Trichy',duration:'8 days / 7 nights',image:'https://images.unsplash.com/photo-1600100397608-f010d6d2c8b0?auto=format&fit=crop&w=1000&q=80'},
+{name:'Tamil Nadu Spiritual',route:'Madurai · Rameswaram · Trichy',duration:'8 days / 7 nights',image:'https://files.hdfcfund.com/s3fs-public/inline-images/Meenakshi%20Amman%20Temple%2C%20Madurai%2C%20Tamil%20Nadu.jpg'},
 {name:'Golden Triangle',route:'Delhi · Agra · Jaipur',duration:'5 days / 4 nights',image:'https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?auto=format&fit=crop&w=1000&q=80'},
 {name:'Varanasi & the Sacred North',route:'Kashi · Allahabad · Ayodhya · Gaya',duration:'6 days / 5 nights',image:destinations[0].image},
 {name:'Chardham Yatra',route:'Haridwar · Rishikesh · Badrinath · Kedarnath',duration:'12 days / 10 nights',image:'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1000&q=80'},
