@@ -1,0 +1,9 @@
+{
+  "name": "Relax Holidays",
+  "description": "Thoughtfully curated holidays, pilgrimages and flight assistance from Relax Holidays, Trichy.",
+  "prompt": "Relax Holidays travel and tour booking website",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
