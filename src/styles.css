@@ -21,3 +21,23 @@
 @media(max-width:1050px){.destgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 16px}}
 @media(max-width:720px){.dest-section{padding-top:75px}.destgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.dest-image{height:165px}.dest-info{padding:13px 12px;min-height:91px}.dest-info strong{font-size:18px}.dest-info em{font-size:8px}.dest-info i{width:30px;height:30px;flex-basis:30px}.dest-region{left:9px;top:9px;font-size:7px;padding:6px 7px}}
 @media(max-width:390px){.destgrid{grid-template-columns:1fr}.dest-image{height:205px}}
+
+/* Hero aircraft launch animation */
+.hero-flight{position:absolute;z-index:1;left:0;top:0;width:100%;height:100%;pointer-events:none;overflow:hidden}
+.hero-flight>svg{position:absolute;left:0;top:0;color:#fff8;filter:drop-shadow(0 3px 10px #071d1a88);transform:rotate(-34deg);animation:plane-launch 11s cubic-bezier(.42,0,.58,1) infinite;animation-delay:1.2s}
+.flight-trail{position:absolute;left:0;top:0;width:150px;height:2px;opacity:0;background:linear-gradient(90deg,transparent,#ffffffb5);transform:rotate(-34deg);transform-origin:right center;animation:trail-launch 11s cubic-bezier(.42,0,.58,1) infinite;animation-delay:1.2s}
+@keyframes plane-launch{
+  0%,9%{left:-9%;top:78%;opacity:0;transform:translate(0,0) rotate(-34deg) scale(.72)}
+  14%{opacity:.92}
+  44%{opacity:.8}
+  72%{opacity:.68}
+  88%,100%{left:108%;top:-16%;opacity:0;transform:translate(0,0) rotate(-34deg) scale(1.08)}
+}
+@keyframes trail-launch{
+  0%,9%{left:-10%;top:79%;opacity:0;transform:rotate(-34deg) scaleX(.2)}
+  16%{opacity:.45;transform:rotate(-34deg) scaleX(1)}
+  75%{opacity:.25}
+  88%,100%{left:108%;top:-15%;opacity:0;transform:rotate(-34deg) scaleX(.7)}
+}
+@media(max-width:720px){.hero-flight>svg{animation-duration:12s}.flight-trail{width:100px}}
+@media(prefers-reduced-motion:reduce){.hero-flight,.hero-flight *{animation:none!important;display:none!important}}
